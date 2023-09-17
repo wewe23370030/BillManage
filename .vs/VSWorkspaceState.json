@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BillManage",
+    "\\BillManage\\BillManage"
   ],
-  "SelectedNode": "\\C:\\Users\\wewe23370030\\Source\\Repos\\symmetrical-computing-machine",
+  "SelectedNode": "\\BillManage\\BillManage\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
