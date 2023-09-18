@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BillManage</name>
+    </assembly>
+    <members>
+        <member name="M:BillManage.Controllers.BillManageController.GetTotalUnblendedcost(System.Int64)">
+            <summary>
+            取得各項產品的unblendedcost總合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BillManage.Controllers.BillManageController.GetDailyLineItem_UsageAmount(System.Int64)">
+            <summary>
+            取得各項產品每日的UsageAmount總和
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BillManage.BillManageService.GetTotalUnblendedcost(System.Int64)">
+            <summary>
+            取得各項產品的unblendedcost總合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BillManage.BillManageService.GetDailyLineItem_UsageAmount(System.Int64)">
+            <summary>
+            取得各項產品每日的UsageAmount總和
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

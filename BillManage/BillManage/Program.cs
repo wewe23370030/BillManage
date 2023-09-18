@@ -1,7 +1,9 @@
 using Microsoft.Extensions.Configuration;
+using Microsoft.OpenApi.Models;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.Reflection;
 
 namespace BillManage
 {
@@ -21,11 +23,8 @@ namespace BillManage
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
 

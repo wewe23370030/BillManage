@@ -14,9 +14,9 @@ namespace BillManage
         /// 取得各項產品的unblendedcost總合
         /// </summary>
         /// <returns></returns>
-        public Dictionary<string, decimal> GetTotalUnblendedcost()
+        public Dictionary<string, decimal> GetTotalUnblendedcost(long id)
         {
-            Dictionary<string, decimal> data = Repository.ReadData()
+            Dictionary<string, decimal> data = Repository.ReadData(id)
                 .GroupBy(row => row.product_ProductName)
                 .ToDictionary(group => group.Key, group => group.Sum(row => (decimal)row.lineItem_UnblendedCost));
             return data;
@@ -26,9 +26,9 @@ namespace BillManage
         /// 取得各項產品每日的UsageAmount總和
         /// </summary>
         /// <returns></returns>
-        public Dictionary<string, Dictionary<string, decimal>> GetDailyLineItem_UsageAmount()
+        public Dictionary<string, Dictionary<string, decimal>> GetDailyLineItem_UsageAmount(long id)
         {
-            IEnumerable<BillInformation> data = Repository.ReadData();
+            IEnumerable<BillInformation> data = Repository.ReadData(id);
             Dictionary<string, Dictionary<string, decimal>> result = new Dictionary<string, Dictionary<string, decimal>>();
             foreach (BillInformation row in data)
             {

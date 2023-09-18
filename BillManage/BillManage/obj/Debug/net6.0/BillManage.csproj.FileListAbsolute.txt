@@ -38,3 +38,5 @@ C:\Users\wewe23370030\Source\Repos\symmetrical-computing-machine\BillManage\Bill
 C:\Users\wewe23370030\Source\Repos\symmetrical-computing-machine\BillManage\BillManage\obj\Debug\net6.0\BillManage.genruntimeconfig.cache
 C:\Users\wewe23370030\Source\Repos\symmetrical-computing-machine\BillManage\BillManage\obj\Debug\net6.0\ref\BillManage.dll
 C:\Users\wewe23370030\Source\Repos\symmetrical-computing-machine\BillManage\BillManage\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\wewe23370030\Source\Repos\symmetrical-computing-machine\BillManage\BillManage\bin\Debug\net6.0\BillManage.xml
+C:\Users\wewe23370030\Source\Repos\symmetrical-computing-machine\BillManage\BillManage\obj\Debug\net6.0\BillManage.xml

@@ -2,6 +2,6 @@
 {
     public interface IRepository<T>
     {
-        IEnumerable<T> ReadData();
+        IEnumerable<T> ReadData(long id);
     }
 }
